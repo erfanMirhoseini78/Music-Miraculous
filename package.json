@@ -1,0 +1,16 @@
+{
+  "name": "music-miraculous",
+  "version": "2.5.6",
+  "description": "The Project Music Miraculous WebSite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./frontEnd/src/input.css -o ./frontEnd/public/dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "erfan mirhoseini",
+  "license": "FaceBook",
+  "dependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
